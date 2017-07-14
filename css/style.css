@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Josefin+Slab');
+
+*{
+	margin: 0;
+}
+
+body {
+	margin-top: 15px;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 350px;
+	margin: 0 auto;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+
+}
+
+.box {
+	height: 150px;
+	min-width: 100px;
+}
+
+.one {
+	background: #2169d5;
+	height: 170px;
+}
+.box.first {
+	height: 600px;
+	background: url(../img/polygon-lines-background_1035-7063.jpg) ;
+
+}
+
+h1 {
+	color: #6498ca;
+	font-family: 'Josefin Slab', serif;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding: 15px;
+}
+
+h4 {
+	color: #2169d5;
+	margin-top: 20px;
+	margin-left: 15px; 
+}
+.login input {
+	width: 300px;
+	margin: 10px;
+	padding: 10px;
+	border-top-style: hidden;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	border-bottom-color: lightblue;
+	margin-left: 15px;
+	font-size: 18px;
+}
+.form-input input {
+	width: 280px;
+	margin: 10px;
+	padding: 10px;
+	border-top-style: hidden;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	border-bottom-color: lightblue;
+	margin-left: 15px;
+	font-size: 18px;
+}
+
+i {
+	color: #6498ca;
+
+}
+
+a {
+	color: #2068d7;
+	text-decoration: none;
+	text-align: center;
+
+}
+
+#alreadyhave {
+	padding-top: 15px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.sign input {
+	margin-top: 20px;
+	padding: 7px;
+
+	}
+
+#in input {
+	background-color: #2169d5;
+	color: white;
+	font-size: 18px;
+	width: 100%;
+	border-radius: 15px;
+	border-width: 1px;
+	border-color: #2169d5;
+}
+
+#up input {
+	background-color: #ffffff;
+	color: #2169d5;
+	font-size: 18px;
+	width: 100%;
+	border-radius: 15px;
+	border-width: 1px;
+	border-color: #2169d5;
+}
+
+#in :hover {
+	cursor: pointer;
+}
+
+#up :hover {
+	cursor: pointer;
+}
+
+.social {
+	display: inline-block;
+	margin-left: 75px;
+	margin-top: 10px;
+	padding-top: 15px;
+}
+
+.social :hover {
+	cursor: pointer;
+}
+
+#forgotpass, #signinwith {
+	text-align: center;
+	padding-top: 15px;
+	margin-top: 2px;
+}
+
+.circle {
+    background-color:#6498ca;
+    border:2px dashed white;    
+    height: 80px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 80px;
+    margin-top: 65px;
+	margin-left: 30px;
+}
+
+.fa-pencil-square-o {
+	float: right;
+	margin-right: 10px;
+	color: darkblue;
+}
